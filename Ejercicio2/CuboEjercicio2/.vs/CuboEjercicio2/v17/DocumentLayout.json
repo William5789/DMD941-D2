@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JONATHAN G\\Desktop\\Desafio 2 DMD\\CuboEjercicio2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8571C30C-2C69-44B6-9B8B-4DBA8E66CB76}|CuboEjercicio2\\CuboEjercicio2.dwproj|C:\\Users\\JONATHAN G\\Desktop\\Desafio 2 DMD\\CuboEjercicio2\\CuboEjercicio2\\Datos.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{8571C30C-2C69-44B6-9B8B-4DBA8E66CB76}|CuboEjercicio2\\CuboEjercicio2.dwproj|solutionrelative:CuboEjercicio2\\Datos.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8571C30C-2C69-44B6-9B8B-4DBA8E66CB76}|CuboEjercicio2\\CuboEjercicio2.dwproj|C:\\Users\\JONATHAN G\\Desktop\\Desafio 2 DMD\\CuboEjercicio2\\CuboEjercicio2\\Desafio2 Eje2.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{8571C30C-2C69-44B6-9B8B-4DBA8E66CB76}|CuboEjercicio2\\CuboEjercicio2.dwproj|solutionrelative:CuboEjercicio2\\Desafio2 Eje2.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Datos.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JONATHAN G\\Desktop\\Desafio 2 DMD\\CuboEjercicio2\\CuboEjercicio2\\Datos.dim",
+              "RelativeDocumentMoniker": "CuboEjercicio2\\Datos.dim",
+              "ToolTip": "C:\\Users\\JONATHAN G\\Desktop\\Desafio 2 DMD\\CuboEjercicio2\\CuboEjercicio2\\Datos.dim [Dise\u00F1o]",
+              "RelativeToolTip": "CuboEjercicio2\\Datos.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-20T04:17:16.123Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Desafio2 Eje2.cube [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JONATHAN G\\Desktop\\Desafio 2 DMD\\CuboEjercicio2\\CuboEjercicio2\\Desafio2 Eje2.cube",
+              "RelativeDocumentMoniker": "CuboEjercicio2\\Desafio2 Eje2.cube",
+              "ToolTip": "C:\\Users\\JONATHAN G\\Desktop\\Desafio 2 DMD\\CuboEjercicio2\\CuboEjercicio2\\Desafio2 Eje2.cube [Dise\u00F1o]",
+              "RelativeToolTip": "CuboEjercicio2\\Desafio2 Eje2.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-20T04:17:11.85Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

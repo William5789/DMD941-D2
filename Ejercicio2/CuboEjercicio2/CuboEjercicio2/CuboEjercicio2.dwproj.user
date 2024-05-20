@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Desafio2 Eje2</Id>
+            <Name>Desafio2 Eje2</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeyt/xMPg8EqN57PbGc4swAAAAAAcAAAARABlAHMAYQBmAGkAbwAyACAARQBqAGUAMgAAABBmAAAAAQAAIAAAAJngdZ4hdlE+K54p9rmdtmaqS+qdgnymQE32YHqVOz9JAAAAAA6AAAAAAgAAIAAAAEORMHbW8wgvubolLcRBGSjIQAGU31xgXQH1ThPnby2FEAAAAKHOi838puhe5Isc8619f8VAAAAAToc5Mhya9Ip/3D0tGXPGWGeq8cdFlmwuv1JEKy882J0rPvOn0TgU2IL/nOsM0GBIavLC7XWXgS6t4RpvCxwY9w==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Desafio2 Eje2</Id>
+            <Name>Desafio2 Eje2</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeyt/xMPg8EqN57PbGc4swAAAAAAcAAAARABlAHMAYQBmAGkAbwAyACAARQBqAGUAMgAAABBmAAAAAQAAIAAAALOLwUxH600dBFa96XShZ4I+nZE1n31EDEytHBqIndZaAAAAAA6AAAAAAgAAIAAAAM6JfZe6Cu9vItyb4fEEbJ8izLNJbAao+9lQJyWKPQezEAAAAM8T9O5+OgK25HgIEG9irndAAAAADIP7QrWnZkbKyYBTiea3dNz1af1vy0NCO16h12/g+rh0pyjI9b34sOfpGKHWY+LI3uZUQdOS8rq12MHvVSSKtQ==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>CuboEjercicio2</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

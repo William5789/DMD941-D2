@@ -1,0 +1,123 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9b024467-5ccc-4e3e-82c7-e3a33faf0f15" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Desafio2 Eje2</ID>
+  <Name>Desafio2 Eje2</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Desafio2 Eje2</DataSourceID>
+  <Schema>
+    <xs:schema id="Desafio2_x0020_Eje2" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Desafio2_x0020_Eje2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="5b3b56ae-7377-4e22-a08f-f6c4f2d70243">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Datos" msprop:DbTableName="Datos" msprop:FriendlyName="Datos" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="87588be5-9e21-411b-8196-b54b600001b0">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="country_region_code" msprop:FriendlyName="country_region_code" msprop:DbColumnName="country_region_code" msprop:design-time-name="e5b18d9e-6471-43b7-a7c1-a97e9b5ba3b2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="country_region" msprop:FriendlyName="country_region" msprop:DbColumnName="country_region" msprop:design-time-name="6fbbf2e5-fda8-41c2-be1e-547252c81996" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sub_region_1" msprop:FriendlyName="sub_region_1" msprop:DbColumnName="sub_region_1" msprop:design-time-name="4bd4dae8-2aa5-40f1-a1fb-3b4011d940bd" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sub_region_2" msprop:FriendlyName="sub_region_2" msprop:DbColumnName="sub_region_2" msprop:design-time-name="57e952d9-0a16-42ca-a540-a27cfcceb81c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="metro_area" msprop:FriendlyName="metro_area" msprop:DbColumnName="metro_area" msprop:design-time-name="bbcf99f3-6768-4154-86bb-c7cc92fd9aca" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="iso_3166_2_code" msprop:FriendlyName="iso_3166_2_code" msprop:DbColumnName="iso_3166_2_code" msprop:design-time-name="b4995343-73b6-48a7-9e11-03ba2ca8046b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="census_fips_code" msprop:FriendlyName="census_fips_code" msprop:DbColumnName="census_fips_code" msprop:design-time-name="c90e2ff3-39a8-47ea-bb42-967f4646b627" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="place_id" msprop:FriendlyName="place_id" msprop:DbColumnName="place_id" msprop:design-time-name="f738961d-3d45-4ea6-a818-14bc98bdb48c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="date" msprop:FriendlyName="date" msprop:DbColumnName="date" msprop:design-time-name="568c040d-7496-46e8-86bc-72331089c248" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="retail_and_recreation_percent_change_from_baseline" msprop:FriendlyName="retail_and_recreation_percent_change_from_baseline" msprop:DbColumnName="retail_and_recreation_percent_change_from_baseline" msprop:design-time-name="0188ec12-efe9-4f93-bf54-1605231083ae" type="xs:double" minOccurs="0" />
+                  <xs:element name="grocery_and_pharmacy_percent_change_from_baseline" msprop:FriendlyName="grocery_and_pharmacy_percent_change_from_baseline" msprop:DbColumnName="grocery_and_pharmacy_percent_change_from_baseline" msprop:design-time-name="13b1231a-3f5f-4042-899e-62fea1d94770" type="xs:double" minOccurs="0" />
+                  <xs:element name="parks_percent_change_from_baseline" msprop:FriendlyName="parks_percent_change_from_baseline" msprop:DbColumnName="parks_percent_change_from_baseline" msprop:design-time-name="12110e39-c174-4fd8-a920-040ae3b880cc" type="xs:double" minOccurs="0" />
+                  <xs:element name="transit_stations_percent_change_from_baseline" msprop:FriendlyName="transit_stations_percent_change_from_baseline" msprop:DbColumnName="transit_stations_percent_change_from_baseline" msprop:design-time-name="d8904209-364c-462d-a334-a639f3ad954f" type="xs:double" minOccurs="0" />
+                  <xs:element name="workplaces_percent_change_from_baseline" msprop:FriendlyName="workplaces_percent_change_from_baseline" msprop:DbColumnName="workplaces_percent_change_from_baseline" msprop:design-time-name="9e3c9fbf-67b0-4dcf-af20-2c09c6b6cc12" type="xs:double" minOccurs="0" />
+                  <xs:element name="residential_percent_change_from_baseline" msprop:FriendlyName="residential_percent_change_from_baseline" msprop:DbColumnName="residential_percent_change_from_baseline" msprop:design-time-name="0af906bb-7922-4ca1-a29c-aea01b1e193a" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <Desafio2_x0020_Eje2 xmlns="" />
+  </Schema>
+</DataSourceView>
